@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+.parent-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh; /* Set the height to the full viewport height */
+    background-image: url("./assets/img/cloudy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    min-width: 0;
+
+    word-wrap: break-word;
+    background-color: #c4e8f6;
+    border: 0 solid transparent;
+    border-radius: 1;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+.btn{
+    background-color: rgb(27, 18, 96);
+    border-color:rgb(12, 12, 99);
+}
+
+.btn:hover{
+    background-color: rgb(36, 3, 34);
+    border-color:rgb(54, 7, 68);
+}
